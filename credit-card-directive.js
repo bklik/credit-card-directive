@@ -6,7 +6,7 @@ if (!String.prototype.splice) {
 
 angular.module('credit-card-directive', ['style-sheet-factory'])
 
-.directive('creditCard', ['styleSheetFactory', '$timeout', function(styleSheetFactory, $timeout) {
+.directive('creditCard', ['styleSheetFactory', function(styleSheetFactory) {
     return {
         scope: {
             api: '=',
