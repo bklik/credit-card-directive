@@ -28,7 +28,6 @@ angular.module('credit-card-directive', ['style-sheet-factory'])
             $scope.creditCardCvv = $scope.creditCardCvv || "";
             $scope.maxlength = 19;
 
-            var animation_len = 500;
             var inputs = $element.find('div')[0];
             var input_num = $element.find('input')[0];
             var input_exp = $element.find('input')[1];
